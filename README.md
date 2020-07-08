@@ -1,4 +1,4 @@
-# Interactive Task List
+# Interactive ToDo List
 
 
 ## Want to see demo page? click [here](https://twojadrugawyplata.github.io/ToDoList/)
