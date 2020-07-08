@@ -1,0 +1,26 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #eee;
+    font-family: 'Merienda', sans-serif;
+    font-size: 18px;
+    word-break: break-all;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.header {
+    font-weight: 700;
+}
+
+@media (max-width: 767px) {
+    body {
+        padding: 10px;
+    }
+}

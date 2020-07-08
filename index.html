@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>ToDoList</title>
+    <meta name="description" content="Tasks List">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/list.css">
+    <link rel="stylesheet" href="css/section.css">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body>
+    <h1 class="header">Lista zadań</h1>
+    <div class="section">
+        <h2 class="section__h2 section__h2--border">Dodaj nowe zadanie</h2>
+        <form class="form js-form">
+            <input class="form__input js-input" autofocus placeholder="Co jest do zrobienia?">
+            <button class="form__button js-addTask">Dodaj zadanie</button>
+        </form>
+    </div>
+    <div class="section">
+        <div class="section__container">
+            <h2 class="section__h2">Lista zadań</h2>
+            <div class="section__buttonContainer js-sectionButtons"></div>
+        </div>
+        <ul class="tasksList js-tasksList"></ul>
+    </div>
+</body>
+
+</html>
